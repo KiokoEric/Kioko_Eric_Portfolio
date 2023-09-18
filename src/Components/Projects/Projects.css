@@ -1,0 +1,199 @@
+.Projects {
+    color: var(--Color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 2.5rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    margin-bottom: 6.5rem;
+    width: 1300px;
+}
+.Projects h2 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 35px;
+    text-align: center;
+}
+.Projects article {
+    margin-top: 3.2rem;
+}
+.Projects article:nth-of-type(odd) {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4.5rem;
+}
+.Projects article:nth-of-type(even) {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 4.5rem;
+}
+.Projects article section img {
+    border-radius: 2px;
+}
+.Projects article section div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 0.85rem;
+}
+.Projects article section div button {
+    background-color: var(--Background-color);
+    border: none;
+    color: var(--Color);
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+}
+.Projects article section div i {
+    font-size: 22px;
+    cursor: pointer;
+    margin-right: 0.45rem;
+}
+.Projects article section h3 {
+    font-size: 28px;
+    margin-bottom: 0.65rem;
+}
+.Projects article section span {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 0.5rem;
+}
+.Projects article section h4 {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 0.8rem;
+}
+.Projects article section p {
+    font-size: 20px;
+}
+.Projects article section li {
+    font-size: 20px;
+    margin-top: 0.8rem;
+}
+
+@media (max-width:768px) {
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3.2rem;
+        width: 720px;  
+    }
+    .Projects h2 {
+        font-size: 45px;
+    }
+    .Projects article section h3 {
+        font-size: 35px;
+        margin-bottom: 0.65rem; 
+    }
+    .Projects article:nth-of-type(odd) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+    .Projects article:nth-of-type(even) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
+    .Projects article img {
+        border-radius: 8px;
+        width: 700px;
+    }
+    .Projects article section:last-child {
+        margin-left: 0.65rem;
+        width: 700px;
+    }
+    .Projects article section h4 {
+        font-size: 28px;
+    }
+    .Projects article section:last-child p {
+        font-size: 24px;
+        width: 700px;
+    }
+    .Projects article section li {
+        font-size: 24px;
+        margin-top: 0.8rem;
+        width: 700px;
+    }
+}
+
+@media (max-width:428px) {
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.2rem;
+        width: 400px;  
+    }
+    .Projects article:nth-of-type(odd) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        margin-left: 0.8rem;
+    }
+    .Projects article:nth-of-type(even) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        margin-left: 0.8rem;
+    }
+    .Projects article img {
+        border-radius: 5px;
+        width: 380px;
+    }
+    .Projects article section:last-child {
+        margin-left: 0.35rem;
+        width: 380px;
+    }
+    .Projects article section:last-child p {
+        font-size: 24px;
+        width: 380px;
+    }
+    .Projects article section li {
+        font-size: 24px;
+        margin-top: 0.8rem;
+        width: 380px;
+    }
+}
+
+@media (max-width:375px) {
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3.2rem;
+        width: 350px;  
+    }
+    .Projects article:nth-of-type(odd) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        margin-left: 0.8rem;
+    }
+    .Projects article:nth-of-type(even) {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2.5rem;
+        margin-left: 0.8rem;
+    }
+    .Projects article img {
+        border-radius: 5px;
+        width: 320px;
+    }
+    .Projects article section:last-child {
+        margin-left: 0.65rem;
+        width: 320px;
+    }
+    .Projects article section:last-child p {
+        font-size: 20px;
+        width: 310px;
+    }
+    .Projects article section li {
+        font-size: 20px;
+        margin-top: 0.35rem;
+        width: 310px;
+    }
+}

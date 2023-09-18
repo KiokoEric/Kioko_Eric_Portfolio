@@ -1,0 +1,93 @@
+.Skills {
+    color: var(--Color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -16.5rem;
+    margin-bottom: 5.5rem;
+    width: 1200px;
+}
+.Skills section:first-child {
+    margin-bottom: 3rem;
+}
+.Skills section:first-child h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.Skills section:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Skills section:last-child figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+}
+.Skills section:last-child i {
+    color: var(--Color);
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+.Reacticon {
+    margin-bottom: 0.6rem;
+}
+
+@media (max-width:768px) {
+    .Skills {
+        margin: auto;
+        margin-top: 2.5rem;
+        width: 750px;
+    }
+    .Skills section:first-child h2 {
+        font-size: 45px;
+    }
+    .Skills section:first-child p { 
+        font-size: 25px;
+    }
+    .Skills section:last-child {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+        justify-content: center;
+        margin-left: -4rem;
+    }
+}
+
+@media (max-width:428px) {
+    .Skills {
+        margin: auto;
+        margin-top: 2.5rem;
+        width: 400px;
+    }
+    .Skills section:last-child {
+        display: grid;
+        grid-template-columns: 140px 140px 140px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0.5rem;
+        row-gap: 2.5rem;
+    }
+}
+
+@media (max-width:375px) {
+    .Skills {
+        margin: auto;
+        margin-top: 2.5rem;
+        width: 350px;
+    }
+    .Skills section:last-child {
+        display: grid;
+        grid-template-columns: 110px 110px 110px;
+        align-items: center;
+        justify-content: center;
+        margin-left: -1rem;
+        row-gap: 2.5rem;
+    }
+}
