@@ -8,7 +8,7 @@ const githubProfile = () => {
 }
 
 const LinkedinProfile = () => {
-    window.open(`https://www.linkedin.com/in/eric-kioko-007186210`)
+    window.open(`https://www.linkedin.com/in/kioko-eric`)
 }
 
 const Footer = () => {
