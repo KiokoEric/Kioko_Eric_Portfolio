@@ -6,17 +6,7 @@ import "../../App.css"
 
 const Header = () => {
 
-    const StorageTheme = () => {
-        let Value = localStorage.getItem("Dark-Theme");
-
-        if (Value) {
-            return JSON.parse(localStorage.getItem("Values"))
-        } else {
-            return [];
-        }
-    }
-
-    const [Theme, setTheme] = useState(StorageTheme());
+    const [Theme, setTheme] = useState("Dark-Theme");
     const [ExtendNavbar,setExtendNavbar ] = useState(false)
     const [Color, setColor] = useState(false)
 
@@ -59,7 +49,7 @@ return (
                 </section>
                 <section>
                     <figure onClick={ToggleTheme} >
-                        {Theme === "Dark-Theme" ? <BsFillSunFill size="1.3rem" id="Bright" /> : <BsFillMoonFill size="1.3rem" id="Bright" />}
+                        {Theme === "Dark-Theme" ? <BsFillMoonFill size="1.3rem" id="Bright" /> : <BsFillSunFill size="1.3rem" id="Bright" /> }
                     </figure>
                     <figure onClick={()=> {setExtendNavbar((curr) => !curr)}} >
                         {ExtendNavbar ? <i id='Bars' class="fa-solid fa-xmark"></i> : <i  id="Bars" class="fa-solid fa-bars"></i>}
