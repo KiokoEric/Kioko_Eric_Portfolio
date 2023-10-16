@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kioko_Eric/static/css/main.00c2225c.css",
-    "main.js": "/Kioko_Eric/static/js/main.8835d069.js",
+    "main.js": "/Kioko_Eric/static/js/main.9e2b11bc.js",
     "static/js/787.749b4a44.chunk.js": "/Kioko_Eric/static/js/787.749b4a44.chunk.js",
     "static/media/Cook.io_Portfolio_Image.jpg": "/Kioko_Eric/static/media/Cook.io_Portfolio_Image.32a29810bf01221d0425.jpg",
     "static/media/BetterHealth_Portfolio_Image.jpg": "/Kioko_Eric/static/media/BetterHealth_Portfolio_Image.bd2beff5a34402029706.jpg",
@@ -9,14 +9,14 @@
     "static/media/World_Image.jpg": "/Kioko_Eric/static/media/World_Image.8da7924083dd616d4288.jpg",
     "static/media/Eric_Kioko_Profile.jpg": "/Kioko_Eric/static/media/Eric_Kioko_Profile.4ecf5df06c68f50b371d.jpg",
     "static/media/Eric_Kioko_Image.jpg": "/Kioko_Eric/static/media/Eric_Kioko_Image.df5f66b04c7dee306223.jpg",
-    "static/media/Eric_Kioko_Resume.docx": "/Kioko_Eric/static/media/Eric_Kioko_Resume.ee923bf324990c0495af.docx",
+    "static/media/Eric_Kioko_Resume.docx": "/Kioko_Eric/static/media/Eric_Kioko_Resume.6a71ab3bad3193dd3787.docx",
     "index.html": "/Kioko_Eric/index.html",
     "main.00c2225c.css.map": "/Kioko_Eric/static/css/main.00c2225c.css.map",
-    "main.8835d069.js.map": "/Kioko_Eric/static/js/main.8835d069.js.map",
+    "main.9e2b11bc.js.map": "/Kioko_Eric/static/js/main.9e2b11bc.js.map",
     "787.749b4a44.chunk.js.map": "/Kioko_Eric/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00c2225c.css",
-    "static/js/main.8835d069.js"
+    "static/js/main.9e2b11bc.js"
   ]
 }
