@@ -7,19 +7,19 @@ import Portfolio_Three from "../../Images/portfolio-3.jpg"
 const Projects = () => {
 
     const CookioGithub = () => {
-        window.open(`https://github.com/KiokoEric/Cook.io`)
+        window.open(`https://github.com/KiokoEric/The_Cook.io`)
     }
 
     const Cookio = () => {
-        window.open(`https://KiokoEric.github.io/Cook.io`)
+        window.open(`https://KiokoEric.github.io/The_Cook.io`)
     }
 
     const BetterHealthGithub = () => {
-        window.open(`https://github.com/KiokoEric/The_Better_Health`)
+        window.open(`https://github.com/KiokoEric/Better_Health`)
     }
 
     const BetterHealth = () => {
-        window.open(`https://KiokoEric.github.io/The_Better_Health`)
+        window.open(`https://KiokoEric.github.io/Better_Health`)
     }
 
     const iBudgetGithub = () => {
