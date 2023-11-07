@@ -1,6 +1,6 @@
 import React from 'react';
 import "../About/About.css";
-import HomeImage from "../../Images/Eric_Kioko_Image.jpg";
+import AboutImage from "../../Images/About_Image.jpg";
 
 const About = () => {
 return (
@@ -21,7 +21,7 @@ return (
             </section>
             <section>
                 <figure>
-                    <img src={HomeImage} alt="" className='Image' />
+                    <img src={AboutImage} alt="" className='Image' />
                 </figure>
             </section>
         </article>

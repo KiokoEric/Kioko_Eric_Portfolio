@@ -49,7 +49,7 @@
 .Home section:last-child img {
     border-radius: 400px 400px 400px 400px;
     height: 350px;
-    width: 280px;
+    width: 270px;
 }
 
 @media (max-width:768px) {

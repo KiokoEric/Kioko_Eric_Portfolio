@@ -1,8 +1,8 @@
 import React from 'react';
 import "../Home/Home.css";
 import { MdWavingHand } from "react-icons/md";
-import Resume from "../../Documents/Eric_Kioko_Resume.docx";
-import HomeImage from "../../Images/Eric_Kioko_Profile.jpg"
+import Resume from "../../Documents/Eric_Kioko.pdf";
+import HomeImage from "../../Images/Eric_Kioko_Profile.jpg";
 
 const Home = () => {
 return (
@@ -10,7 +10,7 @@ return (
         <section>
             <h2>Hello, My Name is Eric Kioko <span className='Greet' ><MdWavingHand size="1.8rem"/></span></h2>
             <p>
-                I am a FrontEnd Web Developer based in Nairobi, Kenya. I am a passionate and enthusiastic junior developer with a passion for crafting clean, efficient, and user-friendly software solutions.
+                I am a Fullstack Web Developer based in Nairobi, Kenya. I am a passionate and enthusiastic software developer with a passion for crafting clean, efficient, and user-friendly software solutions.
             </p>
             <div>
                 <button>

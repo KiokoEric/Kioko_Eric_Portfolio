@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Skills_Section/Skills.css";
-import { SiTailwindcss } from "react-icons/si"
+import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
 return (
@@ -17,7 +17,7 @@ return (
                 </figcaption> 
             </figure>
             <figure>
-                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-css3-alt"></i> 
                 <figcaption>
                     <h3>CSS</h3>
                 </figcaption> 
