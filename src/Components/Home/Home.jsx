@@ -2,9 +2,14 @@ import React from 'react';
 import "../Home/Home.css";
 import { MdWavingHand } from "react-icons/md";
 import Resume from "../../Documents/Eric_Kioko.pdf";
-import HomeImage from "../../Images/Eric_Kioko_Profile.jpg";
+import HomeImage from "../../Images/Eric_Kioko_Profile.jpg"; 
 
 const Home = () => {
+
+    const openResume = () => {
+        window.open(Resume)
+    }
+
 return (
     <div id='Home' className='Home' >
         <section>
@@ -13,16 +18,8 @@ return (
                 I am a Fullstack Web Developer based in Nairobi, Kenya. I am a passionate and enthusiastic software developer with a passion for crafting clean, efficient, and user-friendly software solutions.
             </p>
             <div>
-                <button>
-                    <a href='#Contact'> 
-                        Contact Now
-                    </a>
-                </button>
-                <button>
-                <a href={Resume}> 
-                    Resume
-                </a>
-                </button>
+                <a href='#Contact'><button>Contact Now</button></a>
+                <button onClick={openResume} >Resume</button>
             </div>
         </section>
         <section>

@@ -41,7 +41,7 @@
     padding: 0.5rem 1.1rem;
     width: 120px; 
 }
-.Home div button a {
+.Home div a {
     color: var(--Background-color);
     font-size: 18px;
     text-decoration: none;
