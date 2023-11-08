@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Kioko_Eric/static/css/main.7a1a76ec.css",
-    "main.js": "/Kioko_Eric/static/js/main.9ea57294.js",
+    "main.css": "/Kioko_Eric/static/css/main.ca7de0f9.css",
+    "main.js": "/Kioko_Eric/static/js/main.28924718.js",
     "static/js/787.749b4a44.chunk.js": "/Kioko_Eric/static/js/787.749b4a44.chunk.js",
     "static/media/Cook.io_Portfolio_Image.jpg": "/Kioko_Eric/static/media/Cook.io_Portfolio_Image.32a29810bf01221d0425.jpg",
     "static/media/BetterHealth_Portfolio_Image.jpg": "/Kioko_Eric/static/media/BetterHealth_Portfolio_Image.bd2beff5a34402029706.jpg",
-    "static/media/Eric_Kioko.pdf": "/Kioko_Eric/static/media/Eric_Kioko.9643008a133489f2db52.pdf",
     "static/media/portfolio-3.jpg": "/Kioko_Eric/static/media/portfolio-3.8fccebd2dd5c997c92cc.jpg",
+    "static/media/Eric_Kioko.pdf": "/Kioko_Eric/static/media/Eric_Kioko.fffc3c9c73ca5c838bc6.pdf",
     "static/media/World_Image.jpg": "/Kioko_Eric/static/media/World_Image.8da7924083dd616d4288.jpg",
     "static/media/About_Image.jpg": "/Kioko_Eric/static/media/About_Image.a5dfff6fc6c5c9c56fdb.jpg",
     "static/media/Eric_Kioko_Profile.jpg": "/Kioko_Eric/static/media/Eric_Kioko_Profile.4ecf5df06c68f50b371d.jpg",
     "index.html": "/Kioko_Eric/index.html",
-    "main.7a1a76ec.css.map": "/Kioko_Eric/static/css/main.7a1a76ec.css.map",
-    "main.9ea57294.js.map": "/Kioko_Eric/static/js/main.9ea57294.js.map",
+    "main.ca7de0f9.css.map": "/Kioko_Eric/static/css/main.ca7de0f9.css.map",
+    "main.28924718.js.map": "/Kioko_Eric/static/js/main.28924718.js.map",
     "787.749b4a44.chunk.js.map": "/Kioko_Eric/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a1a76ec.css",
-    "static/js/main.9ea57294.js"
+    "static/css/main.ca7de0f9.css",
+    "static/js/main.28924718.js"
   ]
 }
