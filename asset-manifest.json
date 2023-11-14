@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kioko_Eric/static/css/main.ca7de0f9.css",
-    "main.js": "/Kioko_Eric/static/js/main.36dbf447.js",
+    "main.js": "/Kioko_Eric/static/js/main.6180e94d.js",
     "static/js/787.749b4a44.chunk.js": "/Kioko_Eric/static/js/787.749b4a44.chunk.js",
     "static/media/Cook.io_Portfolio_Image.jpg": "/Kioko_Eric/static/media/Cook.io_Portfolio_Image.32a29810bf01221d0425.jpg",
     "static/media/BetterHealth_Portfolio_Image.jpg": "/Kioko_Eric/static/media/BetterHealth_Portfolio_Image.bd2beff5a34402029706.jpg",
@@ -12,11 +12,11 @@
     "static/media/Eric_Kioko_Profile.jpg": "/Kioko_Eric/static/media/Eric_Kioko_Profile.4ecf5df06c68f50b371d.jpg",
     "index.html": "/Kioko_Eric/index.html",
     "main.ca7de0f9.css.map": "/Kioko_Eric/static/css/main.ca7de0f9.css.map",
-    "main.36dbf447.js.map": "/Kioko_Eric/static/js/main.36dbf447.js.map",
+    "main.6180e94d.js.map": "/Kioko_Eric/static/js/main.6180e94d.js.map",
     "787.749b4a44.chunk.js.map": "/Kioko_Eric/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca7de0f9.css",
-    "static/js/main.36dbf447.js"
+    "static/js/main.6180e94d.js"
   ]
 }
