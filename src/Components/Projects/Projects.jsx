@@ -15,11 +15,11 @@ const Projects = () => {
     }
 
     const BetterHealthGithub = () => {
-        window.open(`https://github.com/KiokoEric/Better_Health`)
+        window.open(`https://github.com/KiokoEric/My_Better_Health`)
     }
 
     const BetterHealth = () => {
-        window.open(`https://KiokoEric.github.io/Better_Health`)
+        window.open(`https://KiokoEric.github.io/My_Better_Health`)
     }
 
     const iBudgetGithub = () => {
