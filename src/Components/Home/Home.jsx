@@ -2,7 +2,7 @@ import React from 'react';
 import "../Home/Home.css";
 import { MdWavingHand } from "react-icons/md";
 import Resume from "../../Documents/Eric_Kioko.pdf";
-import HomeImage from "../../Images/Eric_Kioko_Profile.jpg"; 
+import HomeImage from "../../Images/Eric_Kioko.jpg"; 
 
 const Home = () => {
 
